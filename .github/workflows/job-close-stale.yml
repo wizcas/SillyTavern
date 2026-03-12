@@ -3,8 +3,8 @@ name: 🕒 Close Stale Issues/PRs Workflow
 on:
   # Run the workflow every day
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight UTC
+  # schedule:
+  #  - cron: '0 0 * * *' # Runs every day at midnight UTC
 
 permissions:
   contents: read
